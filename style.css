@@ -148,3 +148,13 @@ h3 {
 .social-design a {
     margin: 0 10px;
 }
+
+.container-border {
+    border: 5px solid green;
+    margin: 200px 50px;
+    padding: 30px;
+}
+
+.food_history {
+    text-align: center;
+}
