@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.common-container {
+    display: flex;
+    padding-bottom: 150px;
+}
+.recipies-container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.item-container {
+    margin: 0px 8%;
+}
+.items-section {
+    width: 25%;
+    margin: auto;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.items-section img {
+    width: 100%;
+    background-repeat: no-repeat;
+}
