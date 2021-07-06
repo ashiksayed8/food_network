@@ -1,33 +1,150 @@
 body {
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
 }
 
 .common-container {
     display: flex;
     padding-bottom: 150px;
+    padding-left: 5%;
+
 }
+
+.top-banner {
+    background-image: url(images/Group\ 8450.png);
+    background-repeat: no-repeat;
+   
+}
+
+.top-banner h1 span {
+    color: orange;
+}
+
+.para-margin {
+    margin-bottom: 30px;
+}
+
+.mid-banner {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mid-banner h1 {
+    color: #5D6D7E;
+}
+
 .recipies-container {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 0px 400px 50px;
+
+}
+
+.recipies-container h1 {
+    color: #7F8C8D;
+}
+
+.recipies-container p {
+    font-size: 20px;
 }
 
 .half-width {
-    width: 50%;
+    width: 40%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 80%;
+    background-position: right;
+}
+
+.link-item {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(orange,red);
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .item-container {
     margin: 0px 8%;
 }
+
 .items-section {
     width: 25%;
     margin: auto;
     box-shadow: 10px 10px 30px gray;
     border-radius: 20px;
     padding: 10px;
+    text-align: left;
 }
 
 .items-section img {
     width: 100%;
     background-repeat: no-repeat;
+}
+
+.sub-item {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    margin-bottom: 150px;
+
+}
+
+.sub-item-child {
+    padding: 30px;
+    margin: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.footer h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer-title-first {
+    color: orange;
+}
+
+.footer-title-second {
+    color: #5D6D7E;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.social-design {
+    padding-left: 500px;
+}
+
+.social-design a {
+    margin: 0 10px;
 }
